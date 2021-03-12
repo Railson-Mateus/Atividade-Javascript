@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Converter</title>
+</head>
+
+<body>
+    <header>Atividade 2</header>
+    <div>
+        <p>Faça uma função script que leia a temperatura em graus centígrados e converta em graus
+           Farenheit. Continuando, imprima na tela as seguintes mensagens de acordo com a
+           temperatura: “muito frio” se for menor que 10; “frio” se for entre 10 e 15;
+           “normal” se for entre 16 e 22; “quente” se for entre 23 e 30.
+        </p>
+        <form method="get">
+            <label for="meu-input">Informe a temperatura de</label>
+    
+            <input type="checkbox" id="choose1" name="choose"/>
+             <label for="choose1">Celsios para Farenheit</label>
+    
+             <input type="checkbox" id="choose2" name="choose"/>
+             <label for="choose2">Farenheit para Celsios</label>
+    
+             
+            <input type="text" id="meu-input" placeholder="Temperatura Celsios"/>
+            <input type="submit" id="meu-submit" value="Calcular" />
+        </form>
+        <p id="conv"></p>
+        <p id="result"></p>
+    </div>
+    <div>
+        <p>Calcule o valor da série harmônica h por meio do valor de n usando a seguinte
+            expressão h = 1/1 + 1/2 + ... + 1/n.</p>
+        <form method="get">
+            <input type="text" id="meu-input2" placeholder=""/>
+            <input type="submit" id="meu-submit2" value="Calcular" />
+        </form>
+        <p id="result2"></p>
+    </div>
+    <div>
+        <p>
+            Construa um programa em Javascript que, tendo como dados de entrada dois pontos
+        quaisquer no plano, A(x1,y1) e B(x2,y2), escreva a distância entre eles. A fórmula que efetua
+        tal cálculo é: d=\sqrt(x2-x1)^2+(y2-y1)^2.
+        </p>
+        <form method="get">
+            <label for = "x1">Informe as coordenadas do ponto A</label>
+            <input type="text" id="x1" placeholder="Informe o ponto 'x1'"/>
+            <input type="text" id="y1" placeholder="Informe o ponto 'y1'"/><br>
+            <label for = "x1">Informe as coordenadas do ponto B</label>
+            <input type="text" id="x2" placeholder="Informe o ponto 'x2'"/>
+            <input type="text" id="y2" placeholder="Informe o ponto 'y2'"/>
+            <input type="submit" id="meu-submit3" value="Calcular" />
+        </form>
+        <p id="result3"></p>
+    </div>
+    <script src="aula.js"></script>
+</body>
+</html>
